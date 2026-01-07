@@ -8,7 +8,6 @@
 A **machine learning–powered Streamlit web application** for proactively identifying **at-risk university students**.  
 The system provides **predictive analytics**, **explainable risk factors**, **multilingual UI (English / 中文)**, and **secure authentication** for academic early-warning and decision support.
 
----
 
 ## Key Features
 
@@ -19,7 +18,6 @@ The system provides **predictive analytics**, **explainable risk factors**, **mu
 -  **Interactive Dashboards & Reports**  
 -  **Modular, Scalable Architecture**
 
----
 
 ##  Prediction Inputs
 
@@ -29,70 +27,24 @@ The system provides **predictive analytics**, **explainable risk factors**, **mu
 - Previous failures  
 - Stress level indicators  
 
----
 
 ##  System Architecture
 
-┌──────────────┐
-│ User UI │ (Streamlit)
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ Auth Module │
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ Page Router │ (Home / Students / Predictions / Reports)
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ ML Predictor │ (trained_model.pkl)
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ XAI Engine │ (Risk Explanations)
-└──────────────┘
-
-yaml
-Copy code
-
----
-
-##  Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-(Optional model training)
-
-bash
-Copy code
-python model/train_model.py
- Project Structure
-bash
-Copy code
-app.py
-auth/        # Login logic
-pages/       # App pages
-model/       # ML training & model
-utils/       # Explainability logic
-styles/      # UI themes
-config/      # App settings & texts
- Use Cases
-Academic early-warning systems
-
-Student support and intervention planning
-
-Educational data mining research
-
-ML & Streamlit demonstrations
 
 
-Author
-Shakil Ahmed
-Software Engineering
-Interests: Machine Learning, AI, LLMs, Software Engineering
+##  Use Cases
+
+- Academic early-warning systems
+- Student support and intervention planning
+- Educational data mining research
+- ML & Streamlit demonstrations
+
+
+
+##  Author
+
+AHMED MD SHAKIL
+
+Studying Software Engineering at Yangzhou University, China.
+
+Interests: Machine Learning, Deep Learning, AI, LLMs
