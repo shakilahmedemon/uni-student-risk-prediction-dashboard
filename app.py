@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import time
-
+ 
 # Import modules
 from config import set_page_config, init_session_state
 from language import TEXTS
