@@ -1,4 +1,4 @@
-# Proactive Student Risk Monitoring System
+# Proactive Student Risk Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red)
